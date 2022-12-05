@@ -1,0 +1,169 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Nanum Myeongjo', serif;
+}
+html {
+  font-size: 17px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2420;
+  padding: 1rem 4rem;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+.header-logo ion-icon {
+  font-size: 2rem;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: solid 1px #fff;
+  padding: 0.5rem;
+  height: fit-content;
+  color: #fff;
+}
+
+.header-btn ion-icon {
+  color: #f26039;
+}
+
+.home {
+  background-color: #2d2420;
+  padding: 1rem 4rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.home-top {
+}
+.home-top p {
+}
+.home-top-img {
+  height: 20rem;
+  background: url("img/Group\ 2\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-bottom {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.home-bottom-box {
+  min-height: 10rem;
+  width: 25%;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-bottom-box.satu {
+  background-color: #9fd86a;
+  font-weight: 600;
+  font-size: 30px;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.home-bottom-box.dua {
+  background-color: #f0cac5;
+}
+.home-bottom-box.dua p:nth-child(1) ion-icon {
+  font-size: 1.5rem;
+}
+.home-bottom-box.dua p:nth-child(2) {
+  font-weight: 600;
+  font-size: 20px;
+}
+.home-bottom-box.dua p:nth-child(3) {
+}
+
+.home-bottom-box.tiga {
+  background-color: #eed7b3;
+}
+.home-bottom-box.tiga p:nth-child(1) ion-icon {
+  font-size: 2rem;
+}
+.home-bottom-box.tiga p:nth-child(2) {
+  font-weight: 600;
+  font-size: 20px;
+}
+.home-bottom-box.tiga p:nth-child(3) {
+}
+.home-bottom-box.empat {
+  background-color: #feca3e;
+}
+.home-bottom-box.empat p:nth-child(1) {
+    font-weight: 600;
+    font-size: 25px;
+}
+.about{
+    background-color: #f0e5dc;
+    padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-title{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e9846b;
+}
+.about-desk p {
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.about-deskripsi p{
+  font-size: 20px;
+ 
+}
+.about-top{
+ width: 100%;
+}
+.about-top img{
+  width: 100%;
+}
+.about-btn{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: solid 1px #403429;
+  padding: 0.5rem;
+  height: fit-content;
+  color: #403429;
+  align-self:flex-start ;
+  width: fit-content;
+}
+.about-btn ion-icon {
+color: #403429;
+}
+.description{
+  background-color:#2d2420 ;
+  padding:  10rem 4rem;
+display: flex;
+flex-direction: column;
+}
+.description-bottom-box.satu{
+  background-color: #EED7B3;
+  padding:  1.5rem 1rem;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
