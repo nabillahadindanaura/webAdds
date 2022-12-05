@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
   font-family: 'Nanum Myeongjo', serif;
 }
 html {
-  font-size: 17px;
+  font-size: 10px;
 }
 .header {
   display: flex;
@@ -21,8 +21,8 @@ html {
   gap: 1rem;
   color: #fff;
 }
-.header-logo ion-icon {
-  font-size: 2rem;
+.header-logo img {
+  height: 2rem;
 }
 
 .header-btn {
@@ -52,7 +52,7 @@ html {
 }
 .home-top-img {
   height: 20rem;
-  background: url("img/Group\ 2\ \(1\).jpg");
+  background: url('./img/house.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +76,6 @@ html {
   font-size: 30px;
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
-
 }
 
 .home-bottom-box.dua {
@@ -108,62 +107,135 @@ html {
   background-color: #feca3e;
 }
 .home-bottom-box.empat p:nth-child(1) {
-    font-weight: 600;
-    font-size: 25px;
+  font-weight: 600;
+  font-size: 25px;
 }
-.about{
-    background-color: #f0e5dc;
-    padding: 4rem;
+.about {
+  background-color: #f0e5dc;
+  padding: 4rem;
+}
+.about-container {
+  display: flex;
+  gap: 4rem;
+}
+.about-container-text {
+  flex: 100%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 3.2rem;
 }
-.about-title{
-  margin-bottom: 30px;
-  font-size: 20px;
+.about-container-text-1 {
+  font-size: 3.2rem;
   font-weight: 600;
-  color: #e9846b;
+  line-height: 0.9;
+  position: relative;
+  padding-top: 1rem;
 }
-.about-desk p {
-  font-family: 'EB Garamond', serif;
-  font-size: 40px;
-  font-weight: 600;
+.about-container-text-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.3rem;
+  width: 3rem;
+  background-color: #f26039;
 }
-.about-deskripsi p{
-  font-size: 20px;
- 
+.about-container-text-2 {
+  font-size: 1.2rem;
 }
-.about-top{
- width: 100%;
-}
-.about-top img{
-  width: 100%;
-}
-.about-btn{
+.about-container-text-btn {
+  padding: 0.5rem 1rem;
+  border: solid 1px;
+
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
-  border: solid 1px #403429;
-  padding: 0.5rem;
-  height: fit-content;
-  color: #403429;
-  align-self:flex-start ;
+  gap: 0.5rem;
   width: fit-content;
 }
-.about-btn ion-icon {
-color: #403429;
+.about-container-text-btn ion-icon {
+  font-size: 1.4rem;
 }
-.description{
-  background-color:#2d2420 ;
-  padding:  10rem 4rem;
-display: flex;
-flex-direction: column;
+.about-container-img {
+  flex: 100%;
+  position: relative;
 }
-.description-bottom-box.satu{
-  background-color: #EED7B3;
-  padding:  1.5rem 1rem;
+.about-container-img-price {
+  position: absolute;
+  bottom: 3rem;
+  left: -3rem;
+  padding: 1rem;
+  background: white;
+  border: solid 2px #2d2420;
+}
+.about-container-img-price-top {
+  font-size: 2.4rem;
   font-weight: 600;
-  font-size: 30px;
+  border-bottom: solid 1px #2d2420;
+  padding-bottom: 1rem;
+}
+.about-container-img-price-bot {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.about-container-img img {
+  width: 100%;
+}
+.footer {
+  padding: 4rem;
+  background-color: #2d2420;
+}
+.footer-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer-container-top {
+  border-bottom: solid 1px white;
+  padding-bottom: 2rem;
+}
+.footer-container-top-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-container-top-logo img {
+  height: 2rem;
+}
+.footer-container-top-logo p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.footer-container-bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container-bot-item {
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-container-bot-item img {
+  height: 2.4rem;
+}
+.footer-container-cr {
+  position: relative;
+}
+.footer-container-cr hr {
+  border: none;
+  border-bottom: solid 1px white;
+}
+.footer-container-cr p {
+  padding: 0 2rem;
+  background-color: #2d2420;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
